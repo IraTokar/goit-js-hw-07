@@ -24,7 +24,7 @@ galleryContainer.addEventListener('click', onClick);
 function onClick(evt) {
     evt.preventDefault();
 
-    if (evt.target.classList.contains(".gallery__item")) return;
+    if (evt.target.classList.contains("gallery")) return;
 
     const source = evt.target.dataset.source;
 
